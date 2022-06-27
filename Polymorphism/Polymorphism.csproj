@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Inheritance\Inheritance.csproj" />
     <ProjectReference Include="..\Interface\Interface.csproj" />
   </ItemGroup>
 

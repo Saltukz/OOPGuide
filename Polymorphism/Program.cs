@@ -1,23 +1,23 @@
 ﻿
 using Inheritance.Entities;
-using Inheritance.Helper;
+using Interface;
 using Polymorphism.CashService;
+using Polymorphism.Entities;
 
 public class Program
 {
     public static void Main()
     {
-        DiscMag discMag = new DiscMag("dergi", 10, 50);
+
+        DiscMag discMag = new("dergi1", 12, 30);
+        Console.WriteLine(discMag.Copies);
+
         CashTill cashTill = new();
 
         cashTill.SellItem(discMag, 5);
 
         Console.WriteLine(discMag.Copies);
-
-        TypeHelper.SaleType(discMag);
-
+      
     }
-
-
-
+  
 }
