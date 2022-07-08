@@ -22,5 +22,10 @@ namespace InheritancePolimorphismExample.Entities.Abstract
             Console.WriteLine("Çalışan kovuldu.");
             staffMembers.Remove(staffMember);
         }
+
+        public virtual void Sanal1() => Console.WriteLine("ben Sanal1'im");
+
+        public virtual void Sanal2() => Console.WriteLine("ben Sanal2'yim");
+        
     }
 }

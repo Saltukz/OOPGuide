@@ -20,14 +20,17 @@ class Program
         doctor2.RateOfPay = 40;
         doctor2.CalculatePay();
 
-        AllHospitalStaff allHospitalStaff = new();
-        allHospitalStaff.AddEmployee(doctor1);
-        allHospitalStaff.AddEmployee(nurse1);
-        allHospitalStaff.AddEmployee(doctor2);
+        doctor2.Sanal1();
+        doctor2.Sanal2();
 
-        HospitalManager manager = new();
+        //AllHospitalStaff allHospitalStaff = new();
+        //allHospitalStaff.AddEmployee(doctor1);
+        //allHospitalStaff.AddEmployee(nurse1);
+        //allHospitalStaff.AddEmployee(doctor2);
 
-        manager.PayAllStaff(allHospitalStaff.staffMembers);
+        //HospitalManager manager = new();
+
+        //manager.PayAllStaff(allHospitalStaff.staffMembers);
 
     }
 }

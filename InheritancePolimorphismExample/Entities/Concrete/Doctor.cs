@@ -8,6 +8,15 @@ namespace InheritancePolimorphismExample.Entities.Concrete
 {
     public class Doctor : StaffMember
     {
+        public override void Sanal1()
+        {
+            base.Sanal1();
+        }
+
+        public override void Sanal2()
+        {
+            base.Sanal2();
+        }
 
     }
 }
