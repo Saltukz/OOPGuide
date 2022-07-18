@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatchExample", "TryCatch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheadExample", "TheadExample\TheadExample.csproj", "{CC50B4B5-A592-44E6-A49A-FD300032C0C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamsExample", "StreamsExample\StreamsExample.csproj", "{6F67BE96-F2B9-464D-8179-72AAED7E8C2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{CC50B4B5-A592-44E6-A49A-FD300032C0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC50B4B5-A592-44E6-A49A-FD300032C0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC50B4B5-A592-44E6-A49A-FD300032C0C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F67BE96-F2B9-464D-8179-72AAED7E8C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F67BE96-F2B9-464D-8179-72AAED7E8C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F67BE96-F2B9-464D-8179-72AAED7E8C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F67BE96-F2B9-464D-8179-72AAED7E8C2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
