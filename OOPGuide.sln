@@ -29,11 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsExample", "GenericsExample\GenericsExample.csproj", "{526B8CB5-DC29-4FA2-9914-0399C4C43183}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatchExample", "TryCatchExample\TryCatchExample.csproj", "{D83E4CF4-5DFE-45C7-8511-B6D456BE0B44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TryCatchExample", "TryCatchExample\TryCatchExample.csproj", "{D83E4CF4-5DFE-45C7-8511-B6D456BE0B44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheadExample", "TheadExample\TheadExample.csproj", "{CC50B4B5-A592-44E6-A49A-FD300032C0C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheadExample", "TheadExample\TheadExample.csproj", "{CC50B4B5-A592-44E6-A49A-FD300032C0C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamsExample", "StreamsExample\StreamsExample.csproj", "{6F67BE96-F2B9-464D-8179-72AAED7E8C2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamsExample", "StreamsExample\StreamsExample.csproj", "{6F67BE96-F2B9-464D-8179-72AAED7E8C2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqExample", "LinqExample\LinqExample.csproj", "{B5305A20-FFA8-458D-8D43-6F6722254BC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{6F67BE96-F2B9-464D-8179-72AAED7E8C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F67BE96-F2B9-464D-8179-72AAED7E8C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F67BE96-F2B9-464D-8179-72AAED7E8C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5305A20-FFA8-458D-8D43-6F6722254BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5305A20-FFA8-458D-8D43-6F6722254BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5305A20-FFA8-458D-8D43-6F6722254BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5305A20-FFA8-458D-8D43-6F6722254BC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
